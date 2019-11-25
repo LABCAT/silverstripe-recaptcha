@@ -17,8 +17,7 @@ please use the [undefinedoffset/silverstripe-nocaptcha](https://github.com/Undef
  * Requires [spamprotection](http://silverstripe.org/spam-protection-module/) module
 
 ## Installation
-
- * Copy the `recaptcha` directory into your main SilverStripe webroot
+`composer require labcat/recaptcha`
  * Run ?flush=1
 
 This should go in your `mysite/_config/recaptcha.yml`. You can get an free API key at [https://www.google.com/recaptcha](https://www.google.com/recaptcha/admin/create)
